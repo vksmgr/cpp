@@ -1,0 +1,8 @@
+
+if [ $# -eq 0 ]
+    then
+        echo " Enter the prog name : "
+else 
+    g++ $1.cpp -o $1.out
+    ./$1.out
+fi
